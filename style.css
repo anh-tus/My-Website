@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(207, 234, 243);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.254);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.header {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.name {
+    color: #007bff;
+}
+
+.me {
+    font-size: 40px;
+    color: #1a2120;
+}
+
+.quote {
+    font-style: italic;
+    color: #817979;
+    margin-top: 10px;
+    padding-right: 200px;
+    border-left: 4px solid #007bff;
+}
+
+.vd {
+
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 30px;
+    padding-bottom: 5px;
+    color: #222
+}
+
+.hobbies,
+.skills,
+.education,
+.experience,
+.contact,
+.projects,
+.questions {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #e8f4f185;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.318);
+}
+
+ul {
+    list-style: disc;
+    text-align: left;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: #d9d6d6 1px solid;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    border-bottom: #d9d6d6 1px solid;
+    text-align: left;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    text-decoration: solid;
+}
+
+.q {
+    font-size: 150%;
+    color: black;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
